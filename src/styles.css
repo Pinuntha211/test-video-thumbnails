@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn-create-img {
+  background-color: #307e9b;
+  color: rgb(255, 255, 255);
+  height: 37px;
+  padding: 0px 30px;
+  border-radius: 5px;
+  border-width: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-create-img:hover {
+  background-color: #4aa9cc;
+}
+.img-thumbnails {
+  width: 170px;
+  cursor: pointer;
+}
+.div-thumbnails {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+  margin-top: 20px;
+}
+.scroll-x {
+  overflow-x: scroll;
+}
+.div-wrap {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div-preview {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.div-img {
+  margin-right: 20px;
+  border: 2px solid #676464;
+  border-radius: 5px;
+  padding: 10px;
+}
+.txt-preview {
+  color: #3f51b5;
+  cursor: pointer;
+}
+.txt-preview:hover {
+  color: #8898f5;
+}
